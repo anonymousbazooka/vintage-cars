@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vintage cars</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <a href="" class="logo">vintage cars</a>
+    <nav class="navbar">
+        <div class="sidebar">
+            <div class="nav-item">
+            <div class="logo2">vintage cars</div>
+            <img class="close" src="image/icon-close.svg" alt="close"  onclick="toggleSidebar()">
+            </div>
+            <a href="#" style="--i:1" class="active">home</a>
+            <a href="#" style="--i:2">about</a>
+            <a href="#" style="--i:3">review</a>
+            <a href="#" style="--i:4" >featured </a>
+            <a href="#" style="--i:5" >contact us</a>
+        </div>
+
+        <a class="hide" href="#" style="--i:1" class="active">home</a>
+        <a class="hide"  href="#" style="--i:2">about</a>
+        <a class="hide"  href="#" style="--i:3">review</a>
+        <a class="hide"  href="#" style="--i:4" >featured </a>
+        <a class="hide"  href="#" style="--i:5" >contact us</a>
+        <img onclick="toggleSidebar(event)" class="menu" src="./image/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="menu" height="24">
+      
+    </nav>
+
+    <div class="social-media">
+        <a href="#"   style="--i:1"> <i class='bx bxl-twitter'></i></a>
+        <a href="#"  style="--i:2"><i class='bx bxl-facebook'></i></a>
+        <a href="#"   style="--i:3"><i class='bx bxl-instagram' ></i></a>
+    </div>
+  </header>
+
+<section class="home">
+    <div class="home-content">
+        <h1>Welcome to Vintage Car Enthusiasts</h1>
+        <h3>Celebrating the Timeless Beauty of Classic Automobiles</h3>
+      <p>
+        Discover the rich history and unparalleled elegance of vintage cars. 
+        From the roaring engines to the intricate designs, our collection showcases 
+        the masterpieces of automotive engineering. Join us on a journey through 
+        time as we explore the stories and craftsmanship behind these timeless vehicles.
+      </p>
+      <a href="#" class="btn">Explore</a>
+    </div>
+
+    <div class="home-img">
+        <div class="rhombus">
+            <img class="car" src="./image/car-removebg.png" alt="car" width="700">
+        </div>
+    </div>
+    <div class="rhombus2"></div>
+</section>
+
+
+<script src="./car.js" defer></script>
+</body>
+</html>
